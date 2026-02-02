@@ -1,7 +1,6 @@
 """
     File: writer_bot_ht.py
     Author: Alex Farbrook
-    Course: CSC 120, Fall 2024
     Purpose: This program processes a text file, then uses a Markov chain
     to create new text to a desired length using a hashtable. 
     It uses prefixes and suffixes to create semi-coherent sentences.
@@ -9,7 +8,7 @@
 """
 import random
 import sys
-SEED = 8
+SEED = 10
 random.seed(SEED)
 class Hashtable:
     """This class represents a hashtable object than stores prefixes/suffixes.
@@ -199,11 +198,7 @@ def print_words(gen_words):
 
 
 def main():
-    """Calls all methods above using get_in,
 
-    Parameters: None
-
-    Returns: None
     """
     get_in()
 main()
